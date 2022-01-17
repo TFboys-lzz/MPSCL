@@ -1,3 +1,25 @@
+# Margin Preserving Self-paced Contrastive Learning Towards Domain Adaptation for Medical Image Segmentation
+
+Pytorch implementation of our MPSCL for adapting semantic segmentation from the MR/CT modality (source domain) to CT/MR modality (target domain).
+
+## Paper
+[Margin Preserving Self-paced Contrastive Learning Towards Domain Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2103.08454) <br />
+IEEE Journal of Biomedical and Health Informatics (JBHI) Early Access
+
+Please cite our paper if you find it useful for your research.
+
+```
+@ARTICLE{9672690,
+  author={Liu, Zhizhe and Zhu, Zhenfeng and Zheng, Shuai and Liu, Yang and Zhou, Jiayu and Zhao, Yao},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={Margin Preserving Self-paced Contrastive Learning Towards Domain Adaptation for Medical Image Segmentation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JBHI.2022.3140853}}
+```
+
 ## Dependencies
 This code requires the following
 * Python 3.6
