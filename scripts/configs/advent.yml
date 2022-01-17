@@ -1,0 +1,21 @@
+SOURCE: MR
+TARGET: CT
+NUM_WORKERS: 4
+FULLY_SUPERVISED: False
+TRAIN:
+  DA_METHOD: AdvEnt
+  MODEL:     DeepLabv2
+  RESTORE_FROM: /opt/data/private/lzz/Python_Workspace/MPSCL/pretrained_model/DeepLab_resnet_pretrained_imagenet.pth
+  MULTI_LEVEL:     True
+  LAMBDA_ADV_MAIN: 0.003
+  LAMBDA_ADV_AUX:  0.00002
+  LAMBDA_DICE_SRC_MAIN: 1.0
+  LAMBDA_DICE_SRC_AUX:  0.1
+  D_AUX_RESTORE:  None
+  D_MAIN_RESTORE: None
+  D_TYPE:         Original_D
+  D_NORM:         Batch_Norm
+  PreTrain:       True
+  PreProcess:     True
+TEST:
+  MODE: best
