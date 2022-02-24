@@ -27,7 +27,7 @@ This code requires the following
 
 ## Configure Dataset
 * Thanks to [SIFA](https://github.com/cchen-cc/SIFA) for sharing the pre-processed data. We have changed the tfrecords data to Numpy. 
-Plz download the data from [data](https://drive.google.com/drive/folders/1UFqj18A4vuoknldoqAkg9tx7S6CUjxRL) and put it in ./data folder
+Plz download the data from [data](https://drive.google.com/drive/folders/1UFqj18A4vuoknldoqAkg9tx7S6CUjxRL?usp=sharing) and put it in ./data folder
 * Plz run ./dataset/create_datalist.py to create the file containing training data path.
 * Plz run ./dataset/create_test_datalist.py to create the file containing testing data path.
 
